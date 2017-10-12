@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chnu.moodleleadertest.ResultLeadDetailActivity">
+
+    <LinearLayout
+        android:padding="@dimen/marg_s"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/lead_culture"
+            android:textSize="@dimen/text_h2"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_c"
+            android:textSize="@dimen/text_h2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lead_c"
+            android:text=""
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_m"
+            android:textSize="@dimen/text_h2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lead_m"
+            android:text=""
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_a"
+            android:textSize="@dimen/text_h2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lead_a"
+            android:text=""
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_b"
+            android:textSize="@dimen/text_h2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lead_b"
+            android:text=""
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_axes"
+            android:textSize="@dimen/text_h2"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_1"
+            android:textSize="@dimen/text_h2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lead_1"
+            android:text=""
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_2"
+            android:textSize="@dimen/text_h2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lead_2"
+            android:text=""
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_3"
+            android:textSize="@dimen/text_h2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lead_3"
+            android:text=""
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/lead_4"
+            android:textSize="@dimen/text_h2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lead_4"
+            android:text=""
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

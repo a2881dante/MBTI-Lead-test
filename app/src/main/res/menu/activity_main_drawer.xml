@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_short_test"
+            android:icon="@drawable/ic_action_done"
+            android:title="@string/nav_short_test" />
+        <item
+            android:id="@+id/nav_long_test"
+            android:icon="@drawable/ic_action_done_all"
+            android:title="@string/nav_long_test" />
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_action_playlist_add_check"
+            android:title="@string/nav_results" />
+    </group>
+
+    <item android:title="@string/nav_item_test">
+        <menu>
+            <item
+                android:id="@+id/nav_about_test"
+                android:icon="@drawable/ic_action_error"
+                android:title="@string/nav_about_test" />
+            <item
+                android:id="@+id/nav_descriptions"
+                android:icon="@drawable/ic_action_widgets"
+                android:title="@string/nav_descriptors" />
+            <item
+                android:id="@+id/nav_person_types"
+                android:icon="@drawable/ic_action_people"
+                android:title="@string/nav_person_types" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_item_app">
+        <menu>
+            <item
+                android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_action_settings_ethernet"
+                android:title="@string/nav_about_app" />
+        </menu>
+    </item>
+
+</menu>
